@@ -1,29 +1,24 @@
 ## History of Internet :
 
 - `1957` --> Sovient Union launched their first satellite called `SPUTNIK`.
-
-    |
-    |
-    |--> around the same time `USA` established `ARPA (Advance Research and Prject Agency)`.
-    |
-    |
-    |
+-   |
+-   |
+-   |--> around the same time `USA` established `ARPA (Advance Research and Prject Agency)`.
+-   |
+-   |
+-   |
 
 - `1960 - 70's` : 
     - around this time the `ARPA` computers were facing the issue where it was getting
     difficult for their systems/computers to talk to each other and hence data was shared manually. So
     They developed a communication system for their computers to talk to each other.
-
     |
     |
     |
-
 - `1969` --> `ARPANET` was established to solve the above mentioned problem.
-
     |
     |
     |
-    
 - `1980's` --> around this time the ARPA people started progressing from `TCP` towards `TCP/IP`
     - and thus gave the birth to **`Internet`** 
     |
