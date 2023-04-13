@@ -1,29 +1,29 @@
 ## History of Internet :
 
-- `1957` :
+- **`1957`** :
     - Sovient Union launched their first satellite called `SPUTNIK`.
     - around the same time `USA` established `ARPA (Advance Research and Prject Agency)`. 
 
-- `1960 - 70's` : 
+- **`1960 - 70's`** : 
     - around this time the `ARPA` computers were facing the issue where it was getting
     difficult for their systems/computers to talk to each other and hence data was shared manually.
     So they developed a communication system for their computers to talk to each other.
 
-- `1969` :
+- **`1969`** :
     - `ARPANET (Advance Research and Prject Agency Network)` was established to solve the 
         above mentioned problem.
 
-- `1980's` :
+- **`1980's`** :
     - around this time the ARPA people started progressing from `TCP` towards `TCP/IP`
      and thus gave the birth to **`Internet`** 
     - So now apart from ARPA's computers, other USA government computers, research organizations
     academic computers started getting added to Internet.
 
-- `1990's` :
+- **`1990's`** :
     - the researchers at `CERN` felt the need to share the information, and they were using 
                 Hyperlink based documents at that time. So they atarted using Internet as well.
 
-- `1990` :
+- **`1990`** :
     - In the year 1990 **`Time Berner Lee`** introduced **`World Wide Web`**
 
 - **`World Wide Web`** : 
