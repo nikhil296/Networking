@@ -18,7 +18,7 @@
 - If IP-Address tells us about the computer then port tells us about the particular app un that computer for which the data is meant to be.
 - Ports help us to get the packet to a specific process on the Host.
 - Ports were formally known as port numbers.
-- Every process has a `16-bit` port number. Range is `0 - 2^16 = 65535`.
+- Every process has a `16-bit` port number. Range is `0 - 2^16^ = 65535`.
 - **`0 - 1023 = well known ports`** : 
     - These ports are reserved for specific appliations.
     - If a packet belongs to a port that falls under this range then definitely the use ase is already defined atleast by the protocols.
