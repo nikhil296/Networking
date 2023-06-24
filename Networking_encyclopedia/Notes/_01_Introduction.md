@@ -1,6 +1,5 @@
 ## Networking Introduction :
-
-### Network :
+### Network/Computer Network :
   - It is a group/system of interconnected people or items.
   - Computers connected with each other with cables or wireless is called **`computer networks`**.
 

@@ -14,23 +14,24 @@
 - This address can be of a computer, tablet, mobile phone, etc.
 
 ## Ports :
+- If we have a address, we need to identify for which person on that address does the packet belongs to, and the person here can be compared to PORTs.
 - Any machine could be running many network applications, in order to distinguish between these apps for receiving messages/data, we use ports.
-- If IP-Address tells us about the computer then port tells us about the particular app un that computer for which the data is meant to be.
+- If IP-Address tells us about the computer then port tells us about the particular app on that computer for which the data is meant to be.
 - Ports help us to get the packet to a specific process on the Host.
 - Ports were formally known as port numbers.
 - Every process has a `16-bit` port number. Range is `0 - 2^16 = 65535`.
 - **`0 - 1023 = well known ports`** : 
     - These ports are reserved for specific appliations.
-    - If a packet belongs to a port that falls under this range then definitely the use ase is already defined atleast by the protocols.
-    - eg :- { port - 80 belongs to HTTP }, { port - 443 belongs to HTTPs }, etc.
+    - If a packet belongs to a port that falls under this range then definitely the use case is already defined atleast by the protocols.
+    - eg :- { `port - 80 belongs to HTTP` }, { `port - 443 belongs to HTTPs` }, etc.
 - **`1024 - 49152 = Registered ports`** :
-    - They are used by specific potentially propietery apps/process that are known but not system defined.
-    - Any third party applications can use these ports. 
+    - They are used by specific potentially proprietery apps/process that are known but not system defined.
+    - Any third party applications can use these ports.
     - Like HTTP, SMTP, etc are known to the end machine or system but what system does not know is that there can be a MongoDb server, or NodeJs server, etc. so these are known but not system defined.
-    - eg:- { Sql Server uses port = 1433 }, { MongoDb Server uses port = 27017 }, etc.
-    - we an change these range, like if tomorrow we decide to run our MongoDb server in port = 3000 then we have to specify to all aaplication that are consuming this mongo server that instead of 27017 port 3000 is where the Mongo server is running.
+    - eg:- { `Sql Server uses port = 1433 `}, { `MongoDb Server uses port = 27017` }, etc.
+    - we an change these range, like if tomorrow we decide to run our MongoDb server in port = 3000 then we have to specify to all aaplication that are consuming this mongo server that instead of 27017 port 3000 is where the MongoDb server is running.
 - **`49153 - 65535 = Dynamic ports`** :
     - These are ports for future purpose.
 
 ## Socket :
-- **`{ IP-Address + Port } == Socket`** : the combination of Ip address and port is called as an socket.
+- **`{ IP-Address + Port } == Socket`** : the combination of Ip address and port is called an socket.
