@@ -58,7 +58,7 @@
     - Similar to QUIC, HTTP/3 supports multiplexing, allowing multiple streams of data to be sent over a single connection. 
     - This enables concurrent and independent data transfer, improving performance.
 
-## *** `NOTE : does HTTP/3 gives all features of TCP ??` ***
+## `NOTE : does HTTP/3 gives all features of TCP ??`
 - HTTP/3, as a protocol built on top of QUIC, does not provide all the features of TCP (Transmission Control Protocol) directly. TCP is a reliable, connection-oriented protocol that ensures the ordered and error-free delivery of data packets.
 
 - `QUIC`, on the other hand, is a `transport protocol` designed to improve the performance of web communication. It uses UDP (User Datagram Protocol) as the underlying transport protocol and `incorporates its own reliability and congestion control mechanisms`.

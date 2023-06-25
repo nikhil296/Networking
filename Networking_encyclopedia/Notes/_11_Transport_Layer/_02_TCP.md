@@ -44,8 +44,8 @@
     -  It also allows us to control congestion through some mechanism.
 
 ## SEGMENT Header :-
-- ![Segment_header](../../Image/Segment_header.png)
+- ![Segment_header](https://drive.google.com/file/d/1731xtFeqz-8rMqu3rnt8bSpOIyzddNTj/view?usp=drive_link)
 
 ## How to establish a TCP connection (3-way Handshake) :-
 - To establish a TCP connection we use a `3-way handshake`.
-- ![3_way_handshake_TCP](../../Image/3_way_handshake_TCP.png)
+- ![3_way_handshake_TCP](https://drive.google.com/file/d/1p3uM1Kgplu9ldxIlieflKNC-brzG0I9P/view?usp=drive_link)

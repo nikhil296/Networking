@@ -1,4 +1,5 @@
 # Http (Hyper text transfer protocol) :-
+- a application layer protocol.
 - The rules for sending Html like data is written in http protocol.
 - It defines the whole procedure on how client and server will interact.
 - `Http is also categorised into request-response protocols`.
