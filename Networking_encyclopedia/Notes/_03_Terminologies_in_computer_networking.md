@@ -35,3 +35,15 @@
 
 ## Socket :
 - **`{ IP-Address + Port } == Socket`** : the combination of Ip address and port is called an socket.
+
+## Proxy :-
+- A proxy, in the context of computer networks, is an intermediary server that acts as a gateway between clients and other servers. 
+- It sits between the client and the destination server and facilitates communication between them. 
+- The client sends requests to the proxy server, which then forwards those requests to the destination server and relays the responses back to the client.
+- Characteristics :-
+    1. Anonymity and Privacy
+    2. Caching
+    3. Content Filtering and Access Control
+    4. Load Balancing
+    5. Security and Firewall
+    6. Content Transformation

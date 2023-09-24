@@ -9,7 +9,7 @@
     - Cookies are Unique Idetifier Strings that are `set by the server through http header`.
     - These mainly concerned towards privacy.
 - ***`Set-Cookie header :`***
-    - when a server wants to set a cookie it includes ***`js "set-cookie : value"`*** in the http response.
+    - when a server wants to set a cookie it includes ***`"set-cookie : value"`*** in the http response.
     - This value is stored in the cookie file of the browser.
 - ***`How are cookies used ?`***
     - Cookies serve several purposes, including:

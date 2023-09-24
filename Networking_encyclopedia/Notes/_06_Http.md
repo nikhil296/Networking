@@ -51,23 +51,23 @@
         - ***`Accept-language : It specifies the preffered language.`***
         - ***`Connection : for non-persistent http connection = closed, for persistent http connection = open.`***
 2. `Http response message` :-
-- http response status codes :
-    1. `Informational responses` (100 – 199)
-    2. `Successful responses` (200 – 299)
-    3. `Redirection messages` (300 – 399)
-    4. `Client error responses` (400 – 499)
-    5. `Server error responses` (500 – 599)
+    - http response status codes :
+        1. `Informational responses` (100 – 199)
+        2. `Successful responses` (200 – 299)
+        3. `Redirection messages` (300 – 399)
+        4. `Client error responses` (400 – 499)
+        5. `Server error responses` (500 – 599)
 
 
 # Http request methods / Http verbs :-
 - Each of the methods implements a different semantic. 
 - Although if we try we can do tasks of GET using POST as well but that is not semantically correct and will become hard for anyone to understand and read the code later.
-
 1. ***`GET`***
     - The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
 
 2. ***`POST`***
     - The POST method submits an entity to the specified resource, often causing a change in state or side effects on the server.
+    - In REST convention it is used to create some resource/record.
 
 3. ***`PUT`***
     - The PUT method replaces all current representations of the target resource with the request payload.
@@ -90,4 +90,11 @@
 9. ***`CONNECT`***
     - The CONNECT method establishes a tunnel to the server identified by the target resource.
 
-
+## Http methods that HTML also supports :-
+- The commonly used HTTP methods supported by HTML forms are only 2 :-
+    - `GET`: 
+        - `This method is used to request data from the server`. When a form is submitted with the GET method, the form data is appended to the URL as query parameters. This method is typically used for retrieving or fetching data.
+    - `POST`: 
+        - `This method is used to send data to the server`. When a form is submitted with the POST method, the form data is included in the body of the HTTP request. This method is commonly used for submitting data that will create or update resources on the server.
+- HTML doesn't support anything apart from - GET & POST but using JS we can mimic other request methods.
+- `PUT, DELETE, PATCH, etc., these methods are not directly supported by HTML itself and may require additional configuration or server-side handling to handle these methods properly`.
